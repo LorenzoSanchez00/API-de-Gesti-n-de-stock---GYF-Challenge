@@ -141,3 +141,4 @@ C:\Users\Lorenzo\source\repos\APIGestionDeStock\APIGestionDeStock\bin\Debug\net8
 C:\Users\Lorenzo\source\repos\APIGestionDeStock\APIGestionDeStock\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Lorenzo\source\repos\APIGestionDeStock\APIGestionDeStock\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Lorenzo\source\repos\APIGestionDeStock\APIGestionDeStock\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Lorenzo\source\repos\APIGestionDeStock\APIGestionDeStock\obj\Debug\net8.0\APIGestionDeStock.sourcelink.json
