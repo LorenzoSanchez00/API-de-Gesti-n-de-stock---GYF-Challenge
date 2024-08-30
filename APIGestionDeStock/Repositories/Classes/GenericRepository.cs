@@ -25,7 +25,7 @@ namespace APIGestionDeStock.Repositories.Classes
         {
             var FoundId = await set.FindAsync(id);
 
-            if (FoundId is null) throw new Exception("No se encontraron resultados");
+            if (FoundId is null) throw new Exception("Products not found");
 
             return FoundId;
         }
