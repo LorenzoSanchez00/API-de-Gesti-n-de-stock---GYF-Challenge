@@ -1,0 +1,6 @@
+@APIGestionDeStock_HostAddress = http://localhost:5139
+
+GET {{APIGestionDeStock_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
