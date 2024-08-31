@@ -86,6 +86,39 @@ La API cuenta con dos tablas principales: **Users** y **Products**.
 ```
 
 
+# Configuración del Proyecto
+
+Este proyecto utiliza archivos de configuración que no están incluidos en el repositorio por razones de seguridad. Para que el proyecto funcione correctamente en tu entorno local, necesitarás crear estos archivos manualmente.
+
+## Archivos de Configuración
+
+Asegúrate de crear los siguientes archivos en la raíz de tu proyecto:
+
+### `appsettings.json`
+
+Este archivo contiene la configuración general del proyecto. Puedes crear un archivo `appsettings.json` en la raíz del proyecto con el siguiente contenido de ejemplo:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=userServer; Database=DatabaseName; TrustServerCertificate=True; Trusted_Connection=True;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "Jwt": {
+    "Key": "UserKey1234",
+    "Issuer": "YourUserAuthorizationIssuer",
+    "Audience": "YourUsersAudience",
+    "ExpireDays": 5
+  }
+}
+
+```
+
 
 
 #### Archivo para inserción de datos en Sql:
