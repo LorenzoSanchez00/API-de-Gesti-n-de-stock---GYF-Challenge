@@ -120,6 +120,47 @@ Este archivo contiene la configuración general del proyecto. Puedes crear un ar
 ```
 
 
+## Autenticación y Acceso a Funcionalidades
+
+Para acceder a las funcionalidades del controlador de productos en esta API, primero debes registrarte, iniciar sesión, y luego utilizar el token de seguridad que obtuviste para autenticarte.
+
+### 1. Registro de Usuario
+
+Primero, necesitas registrarte utilizando el siguiente endpoint:
+
+- **Endpoint:** `POST /api/Access/sign-up`
+- **Cuerpo de la Solicitud (JSON):**
+
+  ```json
+  {
+    "username": "tu_usuario",
+    "email": "tu_email@example.com",
+    "password": "tu_contraseña"
+  }
+
+### 2. Login
+Una vez registrado debes loguearte
+
+- **Endpoint:** `POST /api/Access/login`
+- **Cuerpo de la Solicitud (JSON):**
+
+  ```json
+  {
+    "username": "tu_usuario",
+    "email": "tu_email@example.com",
+    "password": "tu_contraseña"
+  }
+
+### 3. Token
+Una vez logueado recibes un Token de seguridad, el cual será utilizado para autenticarte y acceder a las funcionalidades del controlador de productos.
+
+- **Cuerpo de la respuesta (JSON):**
+
+  ```json
+  {
+    "token": "tu_token_de_seguridad"
+  }
+
 
 #### Archivo para inserción de datos en Sql:
 
