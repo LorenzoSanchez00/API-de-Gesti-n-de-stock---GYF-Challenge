@@ -27,7 +27,7 @@ La API cuenta con dos tablas principales: **Users** y **Products**.
 *El campo Category solo tiene dos posibles valores: **0** y **1**.
 
 **ejemplo de cuerpo de solicitud:**
-```
+```json
 {
   "price": 5000,
   "date": "2024-01-22",
@@ -44,7 +44,7 @@ La API cuenta con dos tablas principales: **Users** y **Products**.
 | not null | not null     | not null      | not null      | null          |
 
 **ejemplo de cuerpo de solicitud:**
-```
+```json
 {
   "name": "userName",
   "email": "userEmail@some.com",
