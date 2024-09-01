@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\models\\configurations\\entitytypebaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|c:\\users\\lorenzo\\source\\repos\\apigestiondestock\\apigestiondestock\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC6BE4F-ADA4-425B-9DFC-0E85437945BD}|APIGestionDeStock\\APIGestionDeStock.csproj|solutionrelative:apigestiondestock\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,24 +94,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
-              "RelativeToolTip": "APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "APIGestionDeStock\\Repositories\\Classes",
-              "WhenOpened": "2024-08-27T18:31:35.756Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Classes\\GenericRepository.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Repositories\\Classes\\GenericRepository.cs",
@@ -123,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Classes\\UserRepository.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Repositories\\Classes\\UserRepository.cs",
@@ -135,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AccessController.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Controllers\\AccessController.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Controllers\\AccessController.cs",
@@ -147,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Services\\TokenService.cs",
@@ -160,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Services\\ITokenService.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Services\\ITokenService.cs",
@@ -172,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Controllers\\ProductController.cs",
@@ -180,12 +171,11 @@
               "RelativeToolTip": "APIGestionDeStock\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowDIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T04:05:55.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T04:05:55.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\appsettings.Development.json",
               "RelativeDocumentMoniker": "APIGestionDeStock\\appsettings.Development.json",
@@ -198,20 +188,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Program.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Program.cs",
               "ToolTip": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Program.cs",
               "RelativeToolTip": "APIGestionDeStock\\Program.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGwAAAAZAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAGIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T04:09:34.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\User.cs",
+              "RelativeDocumentMoniker": "APIGestionDeStock\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\User.cs",
+              "RelativeToolTip": "APIGestionDeStock\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T20:52:24.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "APIGestionDeStock\\Models\\Product.cs",
+              "ToolTip": "APIGestionDeStock/Models/Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "APIGestionDeStock\\Models",
+              "OverriddenToolTip": "APIGestionDeStock/Models/Product.cs",
+              "WhenOpened": "2024-08-27T15:59:07.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
+              "RelativeToolTip": "APIGestionDeStock\\Repositories\\Classes\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "APIGestionDeStock\\Repositories\\Classes",
+              "WhenOpened": "2024-08-27T18:31:35.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Repositories\\Interfaces\\IUserRepository.cs",
@@ -223,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -235,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EntityTypeBaseConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\Configurations\\EntityTypeBaseConfiguration.cs",
               "RelativeDocumentMoniker": "APIGestionDeStock\\Models\\Configurations\\EntityTypeBaseConfiguration.cs",
@@ -244,19 +274,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T22:42:07.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "APIGestionDeStock\\Models\\Product.cs",
-              "ToolTip": "APIGestionDeStock/Models/Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "APIGestionDeStock\\Models",
-              "OverriddenToolTip": "APIGestionDeStock/Models/Product.cs",
-              "WhenOpened": "2024-08-27T15:59:07.334Z"
             },
             {
               "$type": "Document",
@@ -281,18 +298,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T18:07:35.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\User.cs",
-              "RelativeDocumentMoniker": "APIGestionDeStock\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Lorenzo\\source\\repos\\APIGestionDeStock\\APIGestionDeStock\\Models\\User.cs",
-              "RelativeToolTip": "APIGestionDeStock\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T20:52:24.425Z"
             },
             {
               "$type": "Document",
