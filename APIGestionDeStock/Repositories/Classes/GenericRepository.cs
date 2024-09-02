@@ -25,7 +25,7 @@ namespace APIGestionDeStock.Repositories.Classes
         {
             var FoundId = await set.FindAsync(id);
 
-            if (FoundId is null) throw new Exception("Products not found");
+            if (FoundId is null) throw new Exception("No results found");
 
             return FoundId;
         }
@@ -42,7 +42,7 @@ namespace APIGestionDeStock.Repositories.Classes
         {
             var recordDb = await set.FindAsync(id);
 
-            if (recordDb is null) throw new Exception();
+            if (recordDb is null) throw new Exception("No results found");
 
             await set.Where(x => x.Id == id).ExecuteDeleteAsync();
 
@@ -54,7 +54,7 @@ namespace APIGestionDeStock.Repositories.Classes
         {
             var recordDb = await set.FindAsync(id);
 
-            if (recordDb is null) throw new Exception();
+            if (recordDb is null) throw new Exception("No results found");
 
             set.Update(model);
             model.Id = id;
