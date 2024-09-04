@@ -111,8 +111,8 @@ Este archivo contiene la configuración general del proyecto. Puedes crear un ar
   },
   "Jwt": {
     "Key": "UserKey1234",
-    "Issuer": "YourUserAuthorizationIssuer",
-    "Audience": "YourUsersAudience",
+    "Issuer": "AuthIssuer",
+    "Audience": "UsersAudience",
     "ExpireDays": 5
   }
 }
