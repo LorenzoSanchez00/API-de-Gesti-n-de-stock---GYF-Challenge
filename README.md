@@ -11,7 +11,7 @@ Esta API permite gestionar el stock de productos, utilizando autenticación de u
 - Herramienta para solicitudes HTTP (Postman, Swagger UI, etc.)
 - Clonar este repositorio:
 ```sh
- git clone https://github.com/tu_usuario/tu_repositorio.git
+ git clone https://github.com/LorenzoSanchez00/API-de-Gesti-n-de-stock---GYF-Challenge.git
 ```
 
 
