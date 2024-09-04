@@ -119,6 +119,20 @@ Este archivo contiene la configuración general del proyecto. Puedes crear un ar
 
 ```
 
+## Migraciones
+Guía para aplicar las migraciones a la base de datos:
+
+### Ejecutar `En la Consola de Administrador de paquetes:`
+
+```NET
+    Initial-Migration ElNombreDeTuMigración
+```
+Al presionar Enter si todo funciona bien se te agregará una carpeta llamada 'Migrations' en tu proyecto y se abrirá un archivo con todas las configuraciones de la base de datos.
+El siguiente paso es agregar todos esas configuraciones locales a tu base de datos en SQLServer, para esto simplemente debes ejecutar a continuación el comando: 
+
+```NET
+    Update-Database
+```
 
 ## Autenticación y Acceso a Funcionalidades
 
