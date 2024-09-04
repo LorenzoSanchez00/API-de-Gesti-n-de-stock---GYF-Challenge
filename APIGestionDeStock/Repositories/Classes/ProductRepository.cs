@@ -48,7 +48,7 @@ namespace APIGestionDeStock.Repositories.Classes
                 (productsByCategory.ContainsKey(Category.Cat1) && !selectedProducts.Any(p => p.Category == Category.Cat1)) ||
                 (productsByCategory.ContainsKey(Category.Cat2) && !selectedProducts.Any(p => p.Category == Category.Cat2)))
             {
-                throw new InvalidOperationException("No products were found that met these conditions");
+                return new List<Product>();
             }
 
             return selectedProducts;

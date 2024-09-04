@@ -32,73 +32,60 @@ namespace APIGestionDeStock.Controllers
         [HttpGet("get-all")]
         public async Task<IActionResult> GetAll()
         {
-            var obj = new APIResponseDTO
-            {
-                Message = "Products",
-                Data = await _productRepository.GetAll()
-            };
             try
             {
-                return Ok(obj);
+                var products = await _productRepository.GetAll();
+                if (products == null) return NotFound("No results found");
+                return Ok(products);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
-                return BadRequest(ex);
+                return BadRequest();
             }
         }
 
         [HttpGet("get-by-id{id:int}")]
         public async Task<IActionResult> GetProductsById(int id)
         {
-            var obj = new APIResponseDTO
-            {
-                Message = "found products",
-                Data = await _productRepository.GetById(id)
-            };
             try
             {
-                return Ok(obj);
+                var products = await _productRepository.GetById(id);
+                if (products == null) return NotFound("No results found");
+                return Ok(products);
             }
             catch (Exception)
             {
-                return BadRequest(obj);
+                return BadRequest();
             }
         }
 
         [HttpGet("filter-by-budget")]
         public async Task<IActionResult> FilterByBudget(int budget)
         {
-            var obj = new APIResponseDTO
-            {
-                Message = "filtered products",
-                Data = await _productRepository.filterByBudget(budget)
-            };
             try
             {
                 var validationResult = await _numValidator.ValidateAsync(budget);
-
                 if (!validationResult.IsValid)
                 {
                     return BadRequest(validationResult.Errors);
                 }
 
-                return Ok(obj);
+                var products = await _productRepository.filterByBudget(budget);
+                if (!products.Any()) return NotFound("No products were found that met these conditions");
+                return Ok(products);
             }
             catch (Exception)
             {
-
-                return BadRequest(obj);
+                return BadRequest();           
             }
         }
 
         [HttpPost("add-product")]
-        public async Task<IActionResult> AddProduct(ProductRequestDTO productRequestDTO)
+        public async Task<IActionResult> AddProduct([FromBody] ProductRequestDTO productRequestDTO)
         {
             try
             {
                 var validationResult = await _Addvalidator.ValidateAsync(productRequestDTO);
-
                 if (!validationResult.IsValid)
                 {
                     return BadRequest(validationResult.Errors);
@@ -110,18 +97,18 @@ namespace APIGestionDeStock.Controllers
             }
             catch (Exception)
             {
-
                 return BadRequest();
             }
         }
 
         [HttpPut("update{id:int}")]
-        public async Task<IActionResult> UpdateProduct(int id, ProductRequestDTO productRequestDTO)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductRequestDTO productRequestDTO)
         {
             try
             {
                 var newProductModel = productRequestDTO.FromRequestDtoToEntity();
                 var product = await _productRepository.Update(id, newProductModel);
+                if (product == null) return NotFound();
                 return Ok(product.FromEntityToResponseDto());
             }
             catch (Exception)
@@ -134,19 +121,15 @@ namespace APIGestionDeStock.Controllers
         [HttpDelete("delete{id:int}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var deletedProduct = new APIResponseDTO
-            {
-                Message = "Deleted Product",
-                Data = await _productRepository.Delete(id)
-            };
             try
             {
+                var deletedProduct = await _productRepository.Delete(id);
+                if (deletedProduct == null) return NotFound("No results found");
                 return Ok(deletedProduct);
             }
             catch (Exception)
             {
-
-                return BadRequest(deletedProduct);
+                return BadRequest();
             }
         }
 

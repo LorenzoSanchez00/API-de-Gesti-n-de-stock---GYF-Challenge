@@ -18,23 +18,29 @@ namespace APIGestionDeStock.Repositories.Classes
 
         public async Task<List<TEntity>> GetAll()
         {
-            return await set.ToListAsync();
+            var products = await set.ToListAsync();
+            if (!(products is null))
+            {
+                return products;
+            }
+            return null;
         }
 
         public async Task<TEntity> GetById(int id)
         {
             var FoundId = await set.FindAsync(id);
 
-            if (FoundId is null) throw new Exception("No results found");
-
-            return FoundId;
+            if (!(FoundId is null))
+            {
+                return FoundId;
+            }
+            return null;
         }
 
         public async Task<TEntity> Add(TEntity model)
         {
             set.Add(model);
             await _dbContext.SaveChangesAsync();
-
             return model;
         }
 
@@ -42,11 +48,12 @@ namespace APIGestionDeStock.Repositories.Classes
         {
             var recordDb = await set.FindAsync(id);
 
-            if (recordDb is null) throw new Exception("No results found");
-
-            await set.Where(x => x.Id == id).ExecuteDeleteAsync();
-
-            return recordDb;
+            if (!(recordDb is null))
+            {
+                await set.Where(x => x.Id == id).ExecuteDeleteAsync();
+                return recordDb;
+            }
+            return null;
         }
 
 
@@ -54,14 +61,14 @@ namespace APIGestionDeStock.Repositories.Classes
         {
             var recordDb = await set.FindAsync(id);
 
-            if (recordDb is null) throw new Exception("No results found");
-
-            set.Update(model);
-            model.Id = id;
-
-            await _dbContext.SaveChangesAsync();
-
-            return model;
+            if (!(recordDb is null))
+            {
+                set.Update(model);
+                model.Id = id;
+                await _dbContext.SaveChangesAsync();
+                return model;
+            }
+            return null;
         }
 
     }
