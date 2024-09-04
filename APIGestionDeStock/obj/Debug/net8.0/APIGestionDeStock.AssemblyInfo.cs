@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIGestionDeStock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+638ffaea8938378eae0353410d264994cf369cc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+467a19407116b19ee68093755cf90d97314a1dcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIGestionDeStock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIGestionDeStock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
