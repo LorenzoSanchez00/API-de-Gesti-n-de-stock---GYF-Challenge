@@ -26,11 +26,10 @@ La API cuenta con dos tablas principales: **Users** y **Products**.
 
 *El campo Category solo tiene dos posibles valores: **0** y **1**.
 
-**ejemplo de cuerpo de solicitud:**
+**ejemplo de cuerpo de solicitud de Registro:**
 ```json
 {
   "price": 5000,
-  "date": "2024-01-22",
   "category": 0
 }
 ```
@@ -43,10 +42,18 @@ La API cuenta con dos tablas principales: **Users** y **Products**.
 | int      | nvarchar(50) | nvarchar(100) | nvarchar(100) | nvarchar(MAX) |
 | not null | not null     | not null      | not null      | null          |
 
-**ejemplo de cuerpo de solicitud:**
+**ejemplo de cuerpo de solicitud de Registro:**
 ```json
 {
   "name": "userName",
+  "email": "userEmail@some.com",
+  "password": "userPassword1"
+}
+```
+
+**ejemplo de cuerpo de solicitud de Acceso:**
+```json
+{
   "email": "userEmail@some.com",
   "password": "userPassword1"
 }
