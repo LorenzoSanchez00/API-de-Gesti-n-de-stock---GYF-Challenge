@@ -42,18 +42,10 @@ La API cuenta con dos tablas principales: **Users** y **Products**.
 | int      | nvarchar(50) | nvarchar(100) | nvarchar(100) | nvarchar(MAX) |
 | not null | not null     | not null      | not null      | null          |
 
-**ejemplo de cuerpo de solicitud de Registro:**
+**ejemplo de cuerpo de solicitud:**
 ```json
 {
   "name": "userName",
-  "email": "userEmail@some.com",
-  "password": "userPassword1"
-}
-```
-
-**ejemplo de cuerpo de solicitud de Acceso:**
-```json
-{
   "email": "userEmail@some.com",
   "password": "userPassword1"
 }
@@ -167,7 +159,6 @@ Una vez registrado debes loguearte
 
   ```json
   {
-    "username": "tu_usuario",
     "email": "tu_email@example.com",
     "password": "tu_contraseña"
   }
