@@ -11,7 +11,7 @@ namespace APIGestionDeStock.Mappers
             return new Product
             {
                 Price = productRequestDTO.Price,
-                Date = productRequestDTO.Date,
+                Date = DateTime.Now,
                 Category = productRequestDTO.Category
             };
         }
@@ -21,7 +21,6 @@ namespace APIGestionDeStock.Mappers
             return new ProductRequestDTO
             {
                 Price = product.Price,
-                Date = product.Date,
                 Category = product.Category
             };
         }

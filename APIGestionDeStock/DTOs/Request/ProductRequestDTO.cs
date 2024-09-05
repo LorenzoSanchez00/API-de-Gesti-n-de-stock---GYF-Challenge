@@ -5,7 +5,6 @@ namespace APIGestionDeStock.DTOs.Request
     public class ProductRequestDTO
     {
         public decimal Price { get; set; }
-        public DateTime Date { get; set; }
         public Category Category { get; set; }
     }
 }
