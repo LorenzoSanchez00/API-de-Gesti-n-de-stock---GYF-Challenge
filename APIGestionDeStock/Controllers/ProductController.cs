@@ -8,6 +8,7 @@ using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIGestionDeStock.Controllers
@@ -108,7 +109,7 @@ namespace APIGestionDeStock.Controllers
             {
                 var newProductModel = productRequestDTO.FromRequestDtoToEntity();
                 var product = await _productRepository.Update(id, newProductModel);
-                if (product == null) return NotFound();
+                if (product == null) return NotFound("No results found");
                 return Ok(product.FromEntityToResponseDto());
             }
             catch (Exception)

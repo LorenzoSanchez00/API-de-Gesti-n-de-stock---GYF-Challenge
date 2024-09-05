@@ -8,8 +8,7 @@ namespace APIGestionDeStock.Validators
     {
         public AddProductValidator()
         {
-            RuleFor(p => p.Price).NotEmpty().WithMessage("Price can´t be null")
-                .GreaterThanOrEqualTo(0).WithMessage("The value entered can´t be less than 0");
+            RuleFor(p => p.Price).GreaterThanOrEqualTo(0).WithMessage("The value entered can´t be less than 0");
 
             RuleFor(product => product.Category).IsInEnum().WithMessage("The value of the category must be 0 or 1");
 
