@@ -30,7 +30,7 @@ namespace APIGestionDeStock.Controllers
         }
 
         [HttpPost("sign-up")]
-        public async Task<IActionResult> signUp([FromBody]UserRequestDTO userRequestDTO)
+        public async Task<IActionResult> signUp([FromBody] UserRequestDTO userRequestDTO)
         {
             try
             {
@@ -64,7 +64,7 @@ namespace APIGestionDeStock.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] UserRequestDTO loginRequestDTO)
+        public async Task<IActionResult> Login([FromBody] LoginRequestDTO loginRequestDTO)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
             try

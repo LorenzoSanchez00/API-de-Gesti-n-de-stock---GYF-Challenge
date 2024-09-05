@@ -16,19 +16,19 @@ namespace APIGestionDeStock.Mappers
             };
         }
 
-        public static UserRequestDTO FromEntityToResponseDto(this User user)
+        public static UserRequestDTO FromEntityToRequestDto(this User user)
         {
             return new UserRequestDTO
             {
                 Name = user.Name,
-                Email = user.Email
+                Email = user.Email,
+                Password = user.Password
             };
         }
-        public static UserResponseDTO FromEntityToResponseDto(this User user, string token)
+        public static UserResponseDTO FromEntityToResponseDto(this User user)
         {
             return new UserResponseDTO
             {
-                Token = token,
                 Name = user.Name,
                 Email = user.Email
             };
