@@ -37,7 +37,8 @@ namespace APIGestionDeStock.Controllers
                 var validationResult = await _signUpValidator.ValidateAsync(userRequestDTO);
                 if (!validationResult.IsValid)
                 {
-                    return BadRequest(validationResult.Errors);
+                    var errorMessages = validationResult.Errors.Select(error => error.ErrorMessage).ToList();
+                    return StatusCode(StatusCodes.Status406NotAcceptable, errorMessages);
                 }
                 if (!ModelState.IsValid) return BadRequest(ModelState);
 
@@ -66,9 +67,9 @@ namespace APIGestionDeStock.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDTO loginRequestDTO)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
             try
             {
+                if (!ModelState.IsValid) return BadRequest(ModelState);
 
                 var userDb = await _userRepository.GetByEmail(loginRequestDTO.Email);
 

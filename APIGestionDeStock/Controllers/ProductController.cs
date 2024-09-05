@@ -68,7 +68,8 @@ namespace APIGestionDeStock.Controllers
                 var validationResult = await _numValidator.ValidateAsync(budget);
                 if (!validationResult.IsValid)
                 {
-                    return BadRequest(validationResult.Errors);
+                    var errorMessages = validationResult.Errors.Select(error => error.ErrorMessage).ToList();
+                    return StatusCode(StatusCodes.Status406NotAcceptable, validationResult.Errors);
                 }
 
                 var products = await _productRepository.filterByBudget(budget);
@@ -89,7 +90,8 @@ namespace APIGestionDeStock.Controllers
                 var validationResult = await _Addvalidator.ValidateAsync(productRequestDTO);
                 if (!validationResult.IsValid)
                 {
-                    return BadRequest(validationResult.Errors);
+                    var errorMessages = validationResult.Errors.Select(error => error.ErrorMessage).ToList();
+                    return StatusCode(StatusCodes.Status406NotAcceptable, errorMessages);
                 }
 
                 var newProductModel = productRequestDTO.FromRequestDtoToEntity();

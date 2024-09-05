@@ -26,7 +26,11 @@ namespace APIGestionDeStock.Services
 
             var credentials = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
 
-            var securityToken = new JwtSecurityToken(signingCredentials: credentials, claims: claims, expires: DateTime.UtcNow.AddDays(5), audience: _configuration["Jwt:Audience"], issuer: _configuration["Jwt:Issuer"]);
+            var securityToken = new JwtSecurityToken(signingCredentials: credentials,
+                                                     claims: claims,
+                                                     expires: DateTime.UtcNow.AddDays(5),
+                                                     audience: _configuration["Jwt:Audience"],
+                                                     issuer: _configuration["Jwt:Issuer"]);
 
             var tokenHandler = new JwtSecurityTokenHandler().WriteToken(securityToken);
 
